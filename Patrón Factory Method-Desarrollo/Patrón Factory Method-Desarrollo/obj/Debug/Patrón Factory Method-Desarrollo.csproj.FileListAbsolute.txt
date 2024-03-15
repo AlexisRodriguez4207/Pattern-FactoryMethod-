@@ -1,0 +1,7 @@
+C:\Users\BALAMRUSH\Desktop\Patrón Factory Method-Desarrollo\Patrón Factory Method-Desarrollo\bin\Debug\Patrón Factory Method-Desarrollo.exe.config
+C:\Users\BALAMRUSH\Desktop\Patrón Factory Method-Desarrollo\Patrón Factory Method-Desarrollo\bin\Debug\Patrón Factory Method-Desarrollo.exe
+C:\Users\BALAMRUSH\Desktop\Patrón Factory Method-Desarrollo\Patrón Factory Method-Desarrollo\bin\Debug\Patrón Factory Method-Desarrollo.pdb
+C:\Users\BALAMRUSH\Desktop\Patrón Factory Method-Desarrollo\Patrón Factory Method-Desarrollo\obj\Debug\Patrón Factory Method-Desarrollo.csproj.AssemblyReference.cache
+C:\Users\BALAMRUSH\Desktop\Patrón Factory Method-Desarrollo\Patrón Factory Method-Desarrollo\obj\Debug\Patrón Factory Method-Desarrollo.csproj.CoreCompileInputs.cache
+C:\Users\BALAMRUSH\Desktop\Patrón Factory Method-Desarrollo\Patrón Factory Method-Desarrollo\obj\Debug\Patrón Factory Method-Desarrollo.exe
+C:\Users\BALAMRUSH\Desktop\Patrón Factory Method-Desarrollo\Patrón Factory Method-Desarrollo\obj\Debug\Patrón Factory Method-Desarrollo.pdb

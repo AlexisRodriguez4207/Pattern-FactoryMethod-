@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D8615D22-18A7-4916-B1CF-71DB5BB50046}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>Patrón_Factory_Method_Desarrollo</RootNamespace>
+    <AssemblyName>Patrón Factory Method-Desarrollo</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CaliforniaStylePizza\CaliforniaCheesePizza.cs" />
+    <Compile Include="CaliforniaStylePizza\CaliforniaClamPizza.cs" />
+    <Compile Include="CaliforniaStylePizza\CaliforniaPepperoniPizza.cs" />
+    <Compile Include="CaliforniaStylePizza\CaliforniaVeggiePizza.cs" />
+    <Compile Include="Stores\CaliforniaPizzaStore.cs" />
+    <Compile Include="Stores\ChicagoPizzaStore.cs" />
+    <Compile Include="ChicagoStylePizza\ChicagoPepperoniPizza.cs" />
+    <Compile Include="ChicagoStylePizza\ChicagoCheesePizza.cs" />
+    <Compile Include="ChicagoStylePizza\ChicagoClamPizza.cs" />
+    <Compile Include="ChicagoStylePizza\ChicagoVeggiePizza.cs" />
+    <Compile Include="NYPizza\NYCheesePizza.cs" />
+    <Compile Include="NYPizza\NYClamPizza.cs" />
+    <Compile Include="NYPizza\NYPepperoniPizza.cs" />
+    <Compile Include="NYPizza\NYVeggiePizza.cs" />
+    <Compile Include="Pizza.cs" />
+    <Compile Include="Stores\NYPizzaStore.cs" />
+    <Compile Include="Stores\PizzaStore.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
